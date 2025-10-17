@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Portfolio</title>
+    <link rel="icon" type="image/png" href="logo.png"> <!--Changes the icon in the browser tab-->
+    <link rel="stylesheet" href="sTyeles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="Moon.png" alt="Student Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#works">My Works</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="icon.png" alt="Profile Picture" class="profile-pic">
+        <h1>Hello, My name is <span class="highlight">Lyxander Trinchera</span></h1>
+        <p>Aspiring Web Designer</p>
+    </section>
+
+    <section id="about">
+        <h2 class="h2">About Me</h2>
+        <p>Hello everyone, I'm Lyxander. A student in OBMC who is passionate about technology, especially in web designing. I enjoy designing posters, presentations, etc. When I'm free, I either explore other designing techniques, tips and tricks or I would design a random poster to pass time.</p>
+    </section>
+
+    <section id="works">
+        <h2 class="h2">My Works</h2>
+        <div class="works-gallery">
+
+            <div class="work-item">
+                <a href="file:///C:/Users/luigi/OneDrive/Desktop/STA.ANA_ICT9Ruby_Q1Drill1_Trinchera_Lyxander/STA.ANA_ICT9Ruby_Q1Drill1_Trinchera_Lyxander.html.html" target="blank">
+                <img src="Portfolio.png" alt="Portfolio" style="border: 2px dashed black;">
+                </a>
+                <p style="text-align: center" class="formtitle">My Personal Slambook</p>
+            </div>
+            <div class="work-item">
+                <ul>
+                    <li>✨ HTML & CSS Projects</li>
+                    <li>✨ Personal Blog</li>
+                    <li>✨ School Portfolio</li>
+                </ul>
+            </div>
+
+            <div class="work-item">
+                <a href="file:///C:/Users/luigi/OneDrive/Desktop/Q1SW1_Trincehra_Lyxander/Top%203%20Albums.html" target="blank">
+                <img src="Albums.png" alt="Albums" style="border: 2px dashed black;">
+                </a>
+                <p style="text-align: center;" class="formtitle"> My Top 3 Best Albums</p>
+            </div>
+            <div class="work-item">
+                <ul>
+                    <li>✨ HTML & CSS Projects</li>
+                    <li>✨ HTML Forms</li>
+                    <li>✨ List, Links, and Images</li>
+                </ul>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <section id="contact">
+        <h2 class="h2">Contact Me</h2>
+        <div class="form-container">
+                <form>
+                <!-- Input Fields -->
+                <label class="formtitle" for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+                <br>
+                <label class="formtitle" for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="jane_doe@gmail.com" required>
+
+                <br>
+                <!-- Radio -->
+                <label class="formtitle">How did you find me?</label>
+                <div class="radio-group">
+                    <input type="radio" id="rate1" name="rating" value="1" required>
+                    <label for="rate1">Facebook</label>
+
+                    <input type="radio" id="rate2" name="rating" value="2">
+                    <label for="rate2">Google</label>
+
+                    <input type="radio" id="rate3" name="rating" value="3">
+                    <label for="rate3">Friends</label>
+                </div>
+
+                <br>
+                <br>
+                    <!-- Checkbox -->
+                <label class="formtitle">Services Interested In:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="action" name="genre" value="Action">
+                    <label for="action">Web Design</label>
+
+                    <input type="checkbox" id="comedy" name="genre" value="Comedy">
+                    <label for="comedy">Graphic Design</label>
+
+                    <input type="checkbox" id="drama" name="genre" value="Drama">
+                    <label for="drama">Robotics</label>
+                </div>
+                <br>
+                <br>
+
+                <!-- Select -->
+                <label class="formtitle" for="platform"> Rate my Portfolio</label>
+                <select id="platform" name="platform" required>
+                    <option value="">-- Select Rating --</option>
+                    <option value="1">🦚</option>
+                    <option value="2">🦚🦢</option>
+                    <option value="3">🦚🦢🐧</option>
+                    <option value="4">🦚🦢🐧🥚</option>
+                    <option value="5">🦚🦢🐧🥚🐣</option>
+                </select>
+                
+                <br>
+                <br>
+                <label class="formtitle" for="reason"> Any Feedback?</label>
+                <textarea id="reason" name="reason" rows="4" placeholder="feedback here..." required></textarea>
+                <br>
+
+                <!-- Submit -->
+                <button type="submit"> Submit</button>
+                </form>
+        </div>
+
+    </section>
+
+
+
+    <footer>
+        <p>&copy; 2025 Lyxander Trinchera. All rights reserved.</p>
+    </footer>
+</body>
+</html>
